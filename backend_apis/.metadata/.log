@@ -487,3 +487,54 @@ Caused by: java.lang.NullPointerException
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-12 10:46:24.652
 !MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 11:04:11.070
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 11:04:11.086
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@62075e3d[org.springframework.tooling.boot.ls:1.2.1.201901241129(id=620)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 11:04:11.102
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 11:04:11.329
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 11:04:18.574
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BIJJQBxU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 11:04:18.589
+!MESSAGE subscribing to classpath changes: sts4.classpath.BIJJQBxU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 11:04:18.603
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 11:04:18.618
+!MESSAGE subsribers = [sts4.classpath.BIJJQBxU]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 11:04:18.633
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 11:04:19.968
+!MESSAGE project ppmtool ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 11:04:19.984
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 11:04:19.999
+!MESSAGE Preparing classpath changed notification ppmtool
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 11:04:20.010
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BIJJQBxU => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 11:04:20.026
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 11:04:20.095
+!MESSAGE classpath=111 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 11:04:20.109
+!MESSAGE executing callback sts4.classpath.BIJJQBxU ppmtool false 111
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 11:04:20.340
+!MESSAGE executing callback sts4.classpath.BIJJQBxU SUCCESS [done]
